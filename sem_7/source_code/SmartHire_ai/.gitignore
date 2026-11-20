@@ -1,0 +1,87 @@
+# ==========================================
+# SmartHire AI Master .gitignore Configuration
+# ==========================================
+
+# ── Frontend (Angular, Node.js & Vite) ──
+Frontend/.angular/
+Frontend/node_modules/
+Frontend/dist/
+**/node_modules/
+**/.angular/
+Frontend/.package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ── Backend (Spring Boot & Gradle / Maven) ──
+Backend/build/
+Backend/target/
+Backend/.gradle/
+Backend/out/
+Backend/bin/
+**/build/
+**/.gradle/
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+file-system.probe
+
+# ── Python OpenCV Microservice (PythonProctor) ──
+PythonProctor/venv/
+**/venv/
+**/ENV/
+**/env/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+*.egg-info/
+.eggs/
+
+# ── IDEs, Code Editors & OS Artifacts ──
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+*.log
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# ── Environment & Local Configuration ──
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ── Project Reports, Documentation, Presentations & Audits ──
+Blackbook/
+copyright_audit/
+SmartHireAI_Copyright_Documentation/
+SmartHireAI_ComplexCode_Documentation.pdf
+SmartHireAI_HardestPart_CodeExplanation.pdf
+SmartHireAI_IPR_Project_Analysis.md
+SmartHireAI_Academic_Poster.html
+SmartHireAI_Academic_Poster.jpg
+test_out.txt
+*.docx
+*.pdf
